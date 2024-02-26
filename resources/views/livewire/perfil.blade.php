@@ -93,7 +93,7 @@
                             <i class="fas fa-phone"></i>
                         </div>
                         <div class="col-8">
-                            <input type="telephone" wire:model='telefono' class="form-control input_modal_perfil"
+                            <input type="tel" wire:model='telefono' class="form-control input_modal_perfil"
                                 maxlength="10" />
                             <x-input-error class="text_danger" for="telefono" />
                         </div>

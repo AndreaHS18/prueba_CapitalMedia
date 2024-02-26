@@ -52,7 +52,6 @@ class Perfil extends Component
             'number' => $this->telefono,
             'job' => $this->trabajo,
             'city' => $this->ciudad,
-            'password' => $this->contrasena,
         ]);
         return redirect()->back();
     }
