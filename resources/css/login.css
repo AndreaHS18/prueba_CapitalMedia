@@ -1,0 +1,110 @@
+.div_login_completo {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.div_form_login {
+    margin-top: 20%;
+}
+
+.div_login {
+    background-color: #024D4F;
+}
+
+.logo_login {
+    width: 250px;
+}
+
+.contenedor_form {
+    width: 60%;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.btn_iniciarsesion {
+    background-color: #FFA70F !important;
+    border-radius: 10px;
+}
+
+.txt_iniciarsesion {
+    color: #024D4F !important;
+}
+
+.link,
+.link:hover {
+    text-decoration: none;
+    color: #024D4F;
+}
+
+.link_negro,
+.link_negro:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo_google {
+    color: #EE2522;
+}
+
+.txt_registro {
+    padding: 0;
+    margin: 0;
+}
+
+.link_registro,
+.link_registro:hover {
+    color: #FF1055;
+    font-weight: bold;
+}
+
+.linea_divisora {
+    width: 50%;
+    color: #024D4F !important;
+    background-color: #024D4F !important;
+    height: 2px !important;
+}
+
+.corazon {
+    color: #EE2522;
+}
+
+.estrella {
+    color: #EED222;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 599px) {
+    .contenedor_form {
+        width: 90%;
+    }
+
+    .div_form_login {
+        margin-top: 15%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 800px){
+    .contenedor_form {
+        width: 90%;
+    }
+
+    .div_form_login {
+        margin-top: 40%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+
+} */

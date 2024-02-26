@@ -1,0 +1,100 @@
+.txt_h1 {
+    color: #FF1055 !important;
+}
+
+.div_info {
+    background-color: #FFF4EE;
+    width: 100%;
+}
+
+.img_perfil {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.enlace_imagen,
+.enlace_imagen:hover {
+    color: #024D4F;
+    text-decoration: underline;
+}
+
+.div_eliminar {
+    color: red !important;
+}
+
+.btn_eliminar {
+    background-color: transparent !important;
+    color: red !important;
+    border: none;
+    text-decoration: underline;
+}
+
+.img_beneficios {
+    width: 150px;
+    height: 150px;
+}
+
+.txt_negritas {
+    font-weight: bold;
+}
+
+.img_metodoPago {
+    width: 30px;
+    height: 20px;
+}
+
+.btn_metodoPago {
+    width: 150px;
+    color: #024D4F;
+    border: none;
+    background-color: #FFA70F;
+    border-radius: 10px;
+}
+
+.bnt_cancelar {
+    border: 2px solid #FFA70F !important;
+    background-color: transparent !important;
+}
+
+.input_modal_perfil {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+/* Estilos para quitar la flecha hacia abajo en el select */
+.select_perfil {
+    border: 1px solid #EDB4B7 !important;
+}
+
+
+.text_danger {
+    color: red !important;
+}
+
+.btn_guardar {
+    background-color: transparent;
+    border: none;
+    color: #024D4F;
+    text-decoration: underline;
+}
+
+.plan {
+    color: #024D4F;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 599px) {
+    .img_perfil {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 800px) {
+    .img_perfil {
+        width: 250px;
+        height: 250px;
+    }
+}

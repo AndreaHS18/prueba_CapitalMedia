@@ -1,0 +1,51 @@
+.txt_h1 {
+    color: #FF1055 !important;
+}
+
+.txt_h2 {
+    color: #024D4F !important;
+}
+
+.txt_interrogacion {
+    color: #E5808A;
+}
+
+.card {
+    height: 650px;
+    color: #000;
+    border-radius: 30px !important;
+}
+
+.card>i {
+    color: #024D4F !important;
+}
+
+.txt_gratis {
+    color: #148F8C;
+}
+
+.estrella {
+    color: #EED222 !important;
+}
+
+.carita {
+    color: #FFBA0F !important;
+}
+
+.corazon {
+    color: #EE2522 !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 599px) {
+    .card {
+        height: 680px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 800px){
+    .card {
+        height: 780px;
+    }
+}
